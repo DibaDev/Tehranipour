@@ -1,3 +1,28 @@
 *,header,div,footer{
-	outline: 1px dashed red;
+	outline: 0px dashed red;
+}
+body{
+	background-image: 		url(images/bg_pic1.jpg);
+	background-repeat: 		no-repeat;
+	background-position: 	top center;
+	background-size: 		cover;
+	z-index: 				-1;
+	
+}
+div.content-container{
+	margin: 				0 auto;
+	width: 					1450px;
+		
+}
+header.head{
+
+}
+header.head .contain{
+
+}
+header.head .contain .menubar{
+	width: 					inherit;
+	min-height: 			200px;
+	background-color: 		#666;
+	opacity: 				0.5;
 }

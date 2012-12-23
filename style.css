@@ -2,7 +2,7 @@
 	outline: 0px dashed red;
 }
 body{
-	background-image: 		url(images/test1.jpg);
+	background-image: 		url(images/pic11.jpg);
 	background-repeat: 		no-repeat;
 	background-position: 	top center;
 	background-size: 		cover;
@@ -83,6 +83,7 @@ div.content-container{
   	-moz-transition: 		all 500ms;
   	-o-transition: 			all 500ms;
   	-os-transition: 		all 500ms;
+  	
 }
 /* ... End MENUBAR ... */
 
@@ -94,7 +95,7 @@ footer.foot{
 	min-height: 			270px;
 	background-color: 		#000;
 	padding: 				1px; 
-	margin-top: 			700px;
+	margin-top: 			550px;
 	opacity: 				0.8;
 }	
 
@@ -113,9 +114,9 @@ footer.foot .text{
 	color: 					#fff;
 	text-align: 			center;
 }
-footer.foot .text p span a{
-	text-decoration: 		none;
+footer.foot .text p {
 	color: 					#fff;
+	font-size: 				12px;
 }
 	
 

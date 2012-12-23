@@ -1,23 +1,24 @@
 *,header,div,footer{
-	outline: 1px dashed red;
+	outline: 0px dashed red;
 }
 body{
-	background-image: 		url(images/bg_pic1.jpg);
+	background-image: 		url(images/test1.jpg);
 	background-repeat: 		no-repeat;
 	background-position: 	top center;
 	background-size: 		cover;
 	background-attachment:  fixed;
-	z-index: 				-1;
+	z-index: 				-5;
 	
 	
 }
 div.content-container{
 	margin: 				0 auto;
 	width: 					1300px;
-		
+	
 }
 .content-container header.head{
 	width: 					inherit;
+	z-index: 				100;
 }
 .content-container header.head .contain{
 	width: 					inherit;
@@ -25,6 +26,7 @@ div.content-container{
 .content-container header.head .contain .menubar{
 	width: 					inherit;
 	min-height: 			250px;
+	
 	
 }
 .content-container header.head .contain .menubar .logo{
@@ -43,6 +45,7 @@ div.content-container{
 	margin-left: 			800px;
 	font-weight: 			bolder;
 	position: 				absolute;
+	
 }
 .content-container header.head .contain .menubar .menu ul{
 	list-style-type:		none;	

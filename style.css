@@ -6,6 +6,7 @@ body{
 	background-repeat: 		no-repeat;
 	background-position: 	top center;
 	background-size: 		cover;
+	background-attachment: fixed;
 	z-index: 				-1;
 	opacity: 1;
 	
@@ -15,18 +16,18 @@ div.content-container{
 	width: 					1300px;
 		
 }
-header.head{
+.content-container header.head{
 	width: 					inherit;
 }
-header.head .contain{
+.content-container header.head .contain{
 	width: 					inherit;
 }
-header.head .contain .menubar{
+.content-container header.head .contain .menubar{
 	width: 					inherit;
 	min-height: 			250px;
 	opacity: 				0.5;
 }
-header.head .contain .menubar .logo{
+.content-container header.head .contain .menubar .logo{
 	width: 					450px;
 	min-height: 			100px;
 	float: 					left;
@@ -34,20 +35,21 @@ header.head .contain .menubar .logo{
 	background-color: 		red;
 	font: 					45px/100px 'Playfair Display', 'Times New Roman', serif;
 	color: 					white;
+	text-align: 			center;
 }
 
-header.head .contain .menubar .menu{
+.content-container header.head .contain .menubar .menu{
 	width: 					500px;
 	min-height: 			250px;
 	margin-left: 			800px;
 	font-weight: 			bolder;
 	position: 				absolute;
 }
-header.head .contain .menubar .menu ul{
+.content-container header.head .contain .menubar .menu ul{
 	list-style-type:		none;	
 	width: 					490px;
 }
-header.head .contain .menubar .menu ul li{
+.content-container header.head .contain .menubar .menu ul li{
 	float: 					right;
 	width: 					120px;
 	min-height: 			250px;
@@ -55,7 +57,7 @@ header.head .contain .menubar .menu ul li{
 	display: 				inline-block;
 	
 }
-header.head .contain .menubar .menu ul li a{
+.content-container header.head .contain .menubar .menu ul li a{
 	text-decoration: 		none;
 	color: 					white;
 	display: 				inline-block;
@@ -73,15 +75,41 @@ header.head .contain .menubar .menu ul li a{
   	-o-transition: 			all 1s;
   	-os-transition: 		all 1s;
 }
-header.head .contain .menubar .menu ul li a:hover{
+.content-container header.head .contain .menubar .menu ul li a:hover{
 	background-position: 	0 0;
 	-webkit-transition: 	all 500ms;
   	-moz-transition: 		all 500ms;
   	-o-transition: 			all 500ms;
   	-os-transition: 		all 500ms;
 }
-	
+/* ... End MENUBAR ... */
 
+
+/* Footer & Slide */
+footer.foot{
+	margin:  				0 auto;
+	width: 					1300px;
+	min-height: 			270px;
+	background-color: 		#000;
+	padding: 				1px; 
+	margin-top: 			700px;
+	opacity: 				0.8;
+}	
+
+footer.foot .slide{
+	margin: 				0 auto;
+	margin-top: 			10px;
+	min-height: 			130px;
+	width: 					1280px;
+	background-color: 		red;
+}
+footer.foot .text{
+	width: 450px;
+	height: 30px;
+	background-color: red;
+	margin: 0 auto;
+	margin-top: 60px;
+}
 
 	
 

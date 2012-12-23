@@ -26,7 +26,13 @@
 			</menu>
 			
 		</section>
-	</header>	
+	</header>
+	<footer class="foot">
+		<section class="slide">
+			
+		</section>
+		<div class="text"></div>
+	</footer>	
 	
 </div>
 </body>

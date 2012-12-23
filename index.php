@@ -31,7 +31,9 @@
 		<section class="slide">
 			
 		</section>
-		<div class="text"></div>
+		<div class="text">
+			<p>{ EBRAHIM TEHRANIPOUR } © 2012&nbsp; |&nbsp; ALL RIGHTS RESERVED</p>
+		</div>
 	</footer>	
 	
 </div>

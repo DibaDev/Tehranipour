@@ -1,5 +1,5 @@
 *,header,div,footer{
-	outline: 0px dashed red;
+	outline: 1px dashed red;
 }
 body{
 	background-image: 		url(images/bg_pic1.jpg);
@@ -7,22 +7,81 @@ body{
 	background-position: 	top center;
 	background-size: 		cover;
 	z-index: 				-1;
+	opacity: 1;
 	
 }
 div.content-container{
 	margin: 				0 auto;
-	width: 					1450px;
+	width: 					1300px;
 		
 }
 header.head{
-
+	width: 					inherit;
 }
 header.head .contain{
-
+	width: 					inherit;
 }
 header.head .contain .menubar{
 	width: 					inherit;
-	min-height: 			200px;
-	background-color: 		#666;
+	min-height: 			250px;
 	opacity: 				0.5;
 }
+header.head .contain .menubar .logo{
+	width: 					450px;
+	min-height: 			100px;
+	float: 					left;
+	margin-top: 			100px;
+	background-color: 		red;
+	font: 					45px/100px 'Playfair Display', 'Times New Roman', serif;
+	color: 					white;
+}
+
+header.head .contain .menubar .menu{
+	width: 					500px;
+	min-height: 			250px;
+	margin-left: 			800px;
+	font-weight: 			bolder;
+	position: 				absolute;
+}
+header.head .contain .menubar .menu ul{
+	list-style-type:		none;	
+	width: 					490px;
+}
+header.head .contain .menubar .menu ul li{
+	float: 					right;
+	width: 					120px;
+	min-height: 			250px;
+	text-align: 			center;
+	display: 				inline-block;
+	
+}
+header.head .contain .menubar .menu ul li a{
+	text-decoration: 		none;
+	color: 					white;
+	display: 				inline-block;
+	font: 					20px/242px 'Playfair Display', 'Times New Roman', serif;
+	text-transform: 		uppercase;
+	width: 					100%;
+	height: 				100%;
+	letter-spacing: 		4px;
+	background-image: 		url(images/menu_bg.png);
+	background-repeat: 		no-repeat;
+	background-size: 		cover;
+	background-position: 	0px -250px;
+	-webkit-transition: 	all 1s;
+  	-moz-transition: 		all 1s;
+  	-o-transition: 			all 1s;
+  	-os-transition: 		all 1s;
+}
+header.head .contain .menubar .menu ul li a:hover{
+	background-position: 	0 0;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-os-transition: 		all 500ms;
+}
+	
+
+
+	
+

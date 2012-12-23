@@ -13,7 +13,16 @@
 	<header class="head">
 		<section class="contain">
 			<menu class="menubar">
-				
+				<div class="logo">Ebrahim Tehranipour</div>	
+				<div class="menu">
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="">ABOUT</a></li>
+						<li><a href="">GALLERY</a></li>
+						<li><a href="">MAIL</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
 			</menu>
 			
 		</section>

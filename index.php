@@ -39,9 +39,11 @@
 		</section>
 	</header>
 	<footer class="foot">
+		<div class="btn">
+			<img class="next" src="" alt="">
+			<img class="previous" src="" alt="">
+		</div>
 		<section class="slideshow">
-			<div class="next"></div>
-			<div class="previous"></div>
 			<div class="train">
 				<ul>
 					<li><a href=""><img src="images/1s.jpg" alt="" /></a></li>
@@ -59,11 +61,10 @@
 					<li><a href=""><img src="images/1s.jpg" alt="" /></a></li>
 				</ul>
 			</div>
-
 		</section>
-		<!--<div class="text">
+		<div class="text">
 		<p>{ EBRAHIM TEHRANIPOUR } © 2012&nbsp; |&nbsp; ALL RIGHTS RESERVED</p>
-		</div>-->
+		</div>
 	</footer>	
 	
 </div>

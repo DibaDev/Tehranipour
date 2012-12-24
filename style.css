@@ -88,13 +88,12 @@ div.content-container{
 /* ... End MENUBAR ... */
 
 
-/* Footer & Slide */
+/*  Slide & Footer  */
 footer.foot{
 	margin:  				0 auto;
 	width: 					100%;
 	left: 					0;
 	right: 					0;
-	
 	position: 				absolute;
 	min-height: 			224px;
 	background-image: 		url(images/footer_bg.png);
@@ -104,48 +103,62 @@ footer.foot{
 	margin-top: 			550px;
 }	
 footer.foot .slideshow{
-	margin: 				25px auto;
-	width: 					1380px;	
+	margin: 				0 auto;
+	width: 					925px;	
 	min-height: 			130px;
 	padding:				1px;
 	position: 				relative;
-	overflow: hidden;
+	overflow: 				hidden;
 }
-footer.foot .slideshow .next{
+/*    ...Next & Previous...    */
+footer.foot .btn{
+	margin: 				0 auto;
+	width: 					100%;	
+	left: 					0;
+	right: 					0;
+	min-height: 			40px;
+	position: 				absolute;
+	margin-top: 			25px;
+}
+footer.foot .btn .next, footer.foot .btn  .previous{
+	margin: 				0 auto;
 	width: 					24px;
 	height: 				30px;
 	display: 				inline-block;
 	background-image: 		url(images/arrowL.png);
 	background-repeat:		no-repeat;
 	background-position: 	7px;
-	position: 				absolute;
-	top: 					30px;
-	left: 					15px;
-	z-index: 				5;
+	position: 				relative;
+	top: 					0px;
+	left: 					300px;
+	z-index:    			5;
+	cursor: 				pointer;
 	-webkit-transition: 	all 390ms;
   	-moz-transition: 		all 390ms;
   	-o-transition: 			all 390ms;
   	-os-transition: 		all 390ms;
+  }
+  footer.foot .btn .previous{
+	background-image: 		url(images/arrowR.png);
+	left: 					1220px;
 }
-footer.foot .slideshow .next:hover{
-	top: 					30px;
+footer.foot .btn .next:hover, footer.foot .btn .previous:hover{
 	background-position: 	-17px;
-	-webkit-transition: 	all 90ms;
-  	-moz-transition: 		all 90ms;
-  	-o-transition: 			all 90ms;
-  	-os-transition: 		all 90ms;
-}
-footer.foot .slideshow .previous{
-	
+	-webkit-transition: 	all 140ms;
+  	-moz-transition: 		all 140ms;
+  	-o-transition: 			all 140ms;
+  	-os-transition: 		all 140ms;
 }
 
+/* END Next & Previous  */
+
+/*   ...Train...   */
 footer.foot .slideshow .train{
 	width: 					2200px;
 	min-height: 			120px;
 	margin: 				5px 50px;
 	position: 				absolute;
 	}
-
 footer.foot .slideshow .train ul{
 	margin:  				5px auto;
 	min-height: 			130px;
@@ -154,7 +167,15 @@ footer.foot .slideshow .train ul{
 }
 footer.foot .slideshow .train ul li{
 	float: 					left;
-	border-right:			10px solid transparent;	
+	border-right:			6px solid transparent;
+	opacity: 				0.4;
+	-webkit-transition: 	all 390ms;
+  	-moz-transition: 		all 390ms;
+  	-o-transition: 			all 390ms;
+  	-os-transition: 		all 390ms;	
+}
+footer.foot .slideshow .train ul li:hover{
+	opacity:				1;
 }
 footer.foot .slideshow .train ul li:first-child{
 	border-left: 			10px solid transparent;		
@@ -163,19 +184,20 @@ footer.foot .slideshow .train ul li a{
 			
 }
 footer.foot .slideshow .train ul li a img{
-	border-radius: 			7px;			
+	border-radius: 			5px;			
 }
 
 
 
-
+/*  ...Footer Text...   */
 footer.foot .text{
 	width: 					500px;
 	height: 				30px;
 	margin: 				0 auto;
-	margin-top:				60px;
+	margin-top:				50px;
 	color: 					#fff;
 	text-align: 			center;
+	bottom: 				30px;
 }
 footer.foot .text p {
 	color: 					#fff;

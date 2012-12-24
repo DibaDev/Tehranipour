@@ -94,6 +94,7 @@ footer.foot{
 	width: 					100%;
 	left: 					0;
 	right: 					0;
+	
 	position: 				absolute;
 	min-height: 			224px;
 	background-image: 		url(images/footer_bg.png);
